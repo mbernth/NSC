@@ -131,7 +131,7 @@ Loaded on the front page */
 .front-page-5 .widget-title,
 .front-page-6 .widget-title,
 .front-page-7 .widget-title {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "canada-type-gibson",sans-serif;
 	font-size: 48px;
 	font-size: 4.8rem;
 	font-weight: 400;
@@ -198,7 +198,7 @@ Loaded on the front page */
 }
 
 .front-page-1 .widget-title {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "canada-type-gibson",sans-serif;
 	font-size: 96px;
 	font-size: 9.6rem;
 	font-weight: 400;
@@ -623,7 +623,7 @@ Loaded on the front page */
 }
 
 .front-page .content-box h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "canada-type-gibson",sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	letter-spacing: 2px;
