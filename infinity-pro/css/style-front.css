@@ -15,10 +15,11 @@ Loaded on the front page */
 	border-bottom: 1px solid transparent;
 }
 
-.front-page .white .site-header,
-.header-image.front-page .site-header {
-	background-color: #fff;
-	border-bottom: 1px solid #eee;
+.front-page .white .site-header {
+	background-color: #00395d;
+}
+.header-image.front-page .site-header{
+	
 }
 
 .front-page .offscreen-content-icon button,
@@ -51,7 +52,7 @@ Loaded on the front page */
 .header-image.front-page .genesis-nav-menu a,
 .header-image.front-page .genesis-nav-menu .sub-menu a,
 .header-image.front-page .offscreen-content-icon button {
-	color: #000;
+	color: #fff;
 }
 
 .front-page .genesis-nav-menu a:hover,
@@ -60,7 +61,7 @@ Loaded on the front page */
 .front-page .offscreen-content-icon button:focus,
 .front-page .white .genesis-nav-menu a:hover,
 .front-page .white .genesis-nav-menu a:focus {
-	color: #d43c67;
+	color: #ef405c;
 }
 
 .front-page.full-width-content .content {
@@ -134,7 +135,7 @@ Loaded on the front page */
 	font-family: "canada-type-gibson",sans-serif;
 	font-size: 48px;
 	font-size: 4.8rem;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 0;
 	text-transform: none;
 }
@@ -201,7 +202,7 @@ Loaded on the front page */
 	font-family: "canada-type-gibson",sans-serif;
 	font-size: 96px;
 	font-size: 9.6rem;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: -2px;
 	margin-bottom: -10px;
 	text-transform: none;
