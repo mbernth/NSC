@@ -1322,10 +1322,10 @@ img.alignright,
 /* Primary Navigation
 --------------------------------------------- */
 .nav-primary {
-  float: left;
+  float: right;
   margin-top: 25px;
   text-align: center;
-  width: 60%; }
+  width: 70%; }
 
 /* Footer Navigation
 --------------------------------------------- */
@@ -1599,10 +1599,11 @@ p.entry-meta {
 /* Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  border-top: 1px solid #eee;
-  font-size: 20px;
-  font-size: 2rem;
-  clear: both; }
+  font-size: 16px;
+  font-size: 1.6rem;
+  clear: both;
+  background-color: #00395d;
+  color: #fff; }
 
 .footer-widgets .wrap {
   margin: 0 auto;
@@ -1638,13 +1639,32 @@ p.entry-meta {
 .footer-widgets .button:hover {
   background-color: #ef405c; }
 
+.footer-widgets .menu a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+.footer-widgets .menu a:hover {
+  color: #ef405c; }
+
+.footer-widgets .menu li {
+  border-bottom: 1px solid #fff; }
+
+.footer-widgets .menu li:last-child {
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  border-top: 1px solid #eee;
   line-height: 1;
-  padding: 60px 0;
-  text-align: center; }
+  padding: 20px 0;
+  text-align: center;
+  background-color: #52b9e9;
+  color: #fff; }
 
 .site-footer .wrap {
   margin: 0 auto;
@@ -1653,8 +1673,8 @@ p.entry-meta {
   padding-right: 60px; }
 
 .site-footer p {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 0; }
 
 .site-footer a {
@@ -1708,7 +1728,13 @@ p.entry-meta {
 @media only screen and (max-width: 1023px) {
   .genesis-nav-menu a {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  .header-image .title-area {
+    width: 150px; }
+  .header-image .site-title > a {
+    width: 150px; }
+  .nav-primary {
+    width: 75%; } }
 
 @media only screen and (max-width: 800px) {
   .content,
@@ -1799,6 +1825,8 @@ p.entry-meta {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg); }
+  .header-image.front-page .genesis-nav-menu a {
+    color: #000; }
   .genesis-responsive-menu .genesis-nav-menu .menu-item {
     display: block;
     float: none;
