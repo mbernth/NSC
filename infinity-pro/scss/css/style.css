@@ -326,14 +326,15 @@ html {
 
 /* Chrome fix */
 body > div {
-  font-size: 2.2rem; }
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 body {
   background-color: #fff;
   color: #000;
   font-family: "canada-type-gibson",sans-serif;
-  font-size: 22px;
-  font-size: 2.2rem;
+  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.75;
   margin: 0; }
@@ -428,16 +429,16 @@ h6 {
   margin: 0 0 20px; }
 
 h1 {
-  font-size: 48px;
-  font-size: 4.8rem; }
-
-h2 {
-  font-size: 42px;
-  font-size: 4.2rem; }
-
-h3 {
   font-size: 36px;
   font-size: 3.6rem; }
+
+h2 {
+  font-size: 32px;
+  font-size: 3.2rem; }
+
+h3 {
+  font-size: 28px;
+  font-size: 3.8rem; }
 
 .comment-respond h3,
 .entry-comments h3,
@@ -445,8 +446,8 @@ h3 {
   margin-bottom: 10px; }
 
 h4 {
-  font-size: 27px;
-  font-size: 2.7rem; }
+  font-size: 24px;
+  font-size: 2.4rem; }
 
 .entry-content h4 {
   margin-top: 40px; }
@@ -458,12 +459,12 @@ h4 {
   text-align: center; }
 
 h5 {
-  font-size: 24px;
-  font-size: 2.4rem; }
+  font-size: 20px;
+  font-size: 2.0rem; }
 
 h6 {
-  font-size: 20px;
-  font-size: 2rem; }
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 /* Objects
 --------------------------------------------- */
@@ -981,12 +982,13 @@ img.alignright,
 
 .gallery-caption,
 .wp-caption-text {
-  font-size: 18px;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 300;
   margin-bottom: 40px;
   margin-left: 0;
-  text-align: center; }
+  text-align: center;
+  font-style: italic; }
 
 .entry-content p.gallery-caption,
 .entry-content p.wp-caption-text {
