@@ -1393,7 +1393,8 @@ img.alignright,
 /* Entry Meta
 --------------------------------------------- */
 .entry-header {
-  text-align: center; }
+  text-align: center;
+  color: #00395d; }
 
 .entry-header::after {
   border-bottom: 1px solid #000;
