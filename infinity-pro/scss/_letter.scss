@@ -1,0 +1,62 @@
+.letter-page{
+    .site-header {
+        position: relative;
+        border-bottom: none;
+    }
+    .title-area {
+        margin: 0 auto;
+        width: 400px;
+        float: none;
+    }
+    .site-title > a {
+        width: 400px;
+        margin: 30px 0;
+        height: 142px;
+    }
+    .site-inner{
+        margin-top: 0;
+    }
+    .entry-content h4 {
+        margin-top: 0;
+    }
+    .charter{
+        margin: 30px 0;
+        padding: 30px;
+        background: $color-primary-one url(/wp-content/themes/infinity-pro/images/charter_back.png) no-repeat;
+        background-size: cover;
+        background-position: 50% 100%;
+        h1{
+            font-size: 40px;
+            font-size: 4rem;
+            margin-bottom: 5px;
+        }
+        .charter-wrapper{
+            margin: 0 auto;
+            max-width: 459px;
+            p{
+                line-height: normal;
+                margin: 0 0 20px;
+            }
+        }
+    }
+    input[type=text],
+    select{
+        background: none;
+        border: none;
+        border-bottom: 1px solid $color-secondary-one;
+    }
+    .gform_body{
+        float: left;
+        h2{
+            margin-top: 40px;
+            color: $color-primary-two;
+        }
+        hr {
+            border-top: 2px solid $color-primary-two;
+        }
+    }
+    hr {
+        border-top: 2px solid $color-secondary-one;
+        margin-bottom: 40px;
+    }
+}

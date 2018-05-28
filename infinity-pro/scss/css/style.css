@@ -1523,6 +1523,63 @@ p.entry-meta {
 .team-page .one-fourth .team-title {
   margin-bottom: 0; }
 
+/* Letter Page
+---------------------------------------------------------------------------------------------------- */
+.letter-page .site-header {
+  position: relative;
+  border-bottom: none; }
+
+.letter-page .title-area {
+  margin: 0 auto;
+  width: 400px;
+  float: none; }
+
+.letter-page .site-title > a {
+  width: 400px;
+  margin: 30px 0;
+  height: 142px; }
+
+.letter-page .site-inner {
+  margin-top: 0; }
+
+.letter-page .entry-content h4 {
+  margin-top: 0; }
+
+.letter-page .charter {
+  margin: 30px 0;
+  padding: 30px;
+  background: #bfe7f7 url(/wp-content/themes/infinity-pro/images/charter_back.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 100%; }
+  .letter-page .charter h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    margin-bottom: 5px; }
+  .letter-page .charter .charter-wrapper {
+    margin: 0 auto;
+    max-width: 459px; }
+    .letter-page .charter .charter-wrapper p {
+      line-height: normal;
+      margin: 0 0 20px; }
+
+.letter-page input[type=text],
+.letter-page select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #00395d; }
+
+.letter-page .gform_body {
+  float: left; }
+  .letter-page .gform_body h2 {
+    margin-top: 40px;
+    color: #52b9e9; }
+  .letter-page .gform_body hr {
+    border-top: 2px solid #52b9e9; }
+
+.letter-page hr {
+  border-top: 2px solid #00395d;
+  margin-bottom: 40px; }
+
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
