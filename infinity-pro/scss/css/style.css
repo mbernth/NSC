@@ -1580,6 +1580,41 @@ p.entry-meta {
   border-top: 2px solid #00395d;
   margin-bottom: 40px; }
 
+.signup-page .charter {
+  margin: 30px 0;
+  padding: 30px;
+  background: #bfe7f7 url(/wp-content/themes/infinity-pro/images/charter_back.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 100%; }
+  .signup-page .charter h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    margin-bottom: 5px; }
+  .signup-page .charter .charter-wrapper {
+    margin: 0 auto;
+    max-width: 459px; }
+    .signup-page .charter .charter-wrapper p {
+      line-height: normal;
+      margin: 0 0 20px; }
+
+.signup-page input[type=text],
+.signup-page select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #00395d; }
+
+.signup-page .gform_body {
+  float: left; }
+  .signup-page .gform_body h2 {
+    margin-top: 40px;
+    color: #52b9e9; }
+  .signup-page .gform_body hr {
+    border-top: 2px solid #52b9e9; }
+
+.signup-page hr {
+  border-top: 2px solid #00395d;
+  margin-bottom: 0px; }
+
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
