@@ -31,6 +31,9 @@ Loaded on the front page */
 
 @media only screen and (min-width:800px) {
 	.front-page .nav-primary .genesis-nav-menu a {
+		color: #00395d;
+	}
+	.front-page .white .nav-primary .genesis-nav-menu a {
 		color: #fff;
 	}
 }
@@ -49,7 +52,7 @@ Loaded on the front page */
 .front-page .white .genesis-nav-menu a,
 .front-page .white .offscreen-content-icon button,
 .front-page .white .site-title a,
-.header-image.front-page .genesis-nav-menu a,
+/*.header-image.front-page .genesis-nav-menu a,*/
 .header-image.front-page .genesis-nav-menu .sub-menu a,
 .header-image.front-page .offscreen-content-icon button {
 	color: #fff;
@@ -173,7 +176,7 @@ Loaded on the front page */
 .front-page-1 p,
 .front-page-1 .featured-content .entry-title a,
 .front-page-1 .widget-title {
-	color: #fff;
+	color: #00395d;
 }
 
 .front-page-1 a {
@@ -242,7 +245,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #bfe7f7;
+	background-color: #52b9e9;
 }
 
 .front-page-2 .widget-full .wrap {
@@ -280,7 +283,7 @@ Loaded on the front page */
 
 .front-page-3 {
 	background-color: #666;
-	color: #fff;
+	color: #00395d;
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
@@ -295,7 +298,7 @@ Loaded on the front page */
 .front-page-3 p,
 .front-page-3 .featured-content .entry-title a,
 .front-page-3 .widget-title {
-	color: #fff;
+	color: #00395d;
 }
 
 .front-page-3 a {
@@ -354,7 +357,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #52b9e9;
+	background-color: #ffe46b;
 }
 
 .front-page-4 .widget-full .wrap {
@@ -392,7 +395,7 @@ Loaded on the front page */
 
 .front-page-5 {
 	background-color: #666;
-	color: #fff;
+	color: #00395d;
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
@@ -407,7 +410,7 @@ Loaded on the front page */
 .front-page-5 p,
 .front-page-5 .featured-content .entry-title a,
 .front-page-5 .widget-title {
-	color: #fff;
+	color: #00395d;
 }
 
 .front-page-5 a {
@@ -466,7 +469,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #ffe46b;
+	background-color: #52b9e9;
 }
 
 .front-page-6 .widget-full .wrap {
@@ -504,7 +507,7 @@ Loaded on the front page */
 
 .front-page-7 {
 	background-color: #666;
-	color: #fff;
+	color: #00395d;
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
@@ -519,7 +522,7 @@ Loaded on the front page */
 .front-page-7 p,
 .front-page-7 .featured-content .entry-title a,
 .front-page-7 .widget-title {
-	color: #fff;
+	color: #00395d;
 }
 
 .front-page-7 a {

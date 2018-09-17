@@ -1587,6 +1587,27 @@ p.entry-meta {
 	display: none;
 }
 
+/* Front page
+--------------------------------------------- */
+.home{
+	[class^="front-page-"], [class*="front-page-"]{
+		.entry-title {
+			font-size: 18px;
+			font-size: 1.8rem;
+		}
+		.entry-header{
+			&::after {
+				border-bottom: none;
+				content: "";
+				display: block;
+				margin: 0;
+				padding-bottom: 0px;
+				width: 0;
+			}
+		}
+	}
+}
+
 
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */

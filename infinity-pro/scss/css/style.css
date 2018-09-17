@@ -1499,6 +1499,20 @@ p.entry-meta {
 .entry-pings .reply {
   display: none; }
 
+/* Front page
+--------------------------------------------- */
+.home [class^="front-page-"] .entry-title, .home [class*="front-page-"] .entry-title {
+  font-size: 18px;
+  font-size: 1.8rem; }
+
+.home [class^="front-page-"] .entry-header::after, .home [class*="front-page-"] .entry-header::after {
+  border-bottom: none;
+  content: "";
+  display: block;
+  margin: 0;
+  padding-bottom: 0px;
+  width: 0; }
+
 /* Team Page
 ---------------------------------------------------------------------------------------------------- */
 .team-page .content {
@@ -1614,6 +1628,23 @@ p.entry-meta {
 .signup-page hr {
   border-top: 2px solid #00395d;
   margin-bottom: 0px; }
+
+.charter {
+  margin: 30px 0;
+  padding: 30px;
+  background: #bfe7f7 url(/wp-content/themes/infinity-pro/images/charter_back.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 100%; }
+  .charter h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    margin-bottom: 5px; }
+  .charter .charter-wrapper {
+    margin: 0 auto;
+    max-width: 459px; }
+    .charter .charter-wrapper p {
+      line-height: normal;
+      margin: 0 0 20px; }
 
 /* Sidebar
 ---------------------------------------------------------------------------------------------------- */
