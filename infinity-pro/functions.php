@@ -62,6 +62,9 @@ function infinity_enqueue_scripts_styles() {
 		'genesis_responsive_menu',
 		infinity_responsive_menu_settings()
 	);
+	// Responsive movie scripts
+	wp_enqueue_script( 'mono-fitvids-script', get_stylesheet_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'mono-fitvids', get_stylesheet_directory_uri() . '/js/fitvids.js', array( 'jquery' ), '1.0.0', true );
 
 }
 
