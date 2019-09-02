@@ -907,15 +907,18 @@ th:first-child {
 /* Titles
 --------------------------------------------- */
 .archive-description .entry-title,
-.archive-title,
 .author-box-title {
   font-size: 24px;
   font-size: 2.4rem;
   margin-bottom: 10px; }
 
+.archive-title,
 .entry-title {
   font-size: 48px;
   font-size: 4.8rem; }
+
+.archive-title {
+  color: #00395d; }
 
 .archive .entry-title {
   font-size: 28px;

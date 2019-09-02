@@ -289,3 +289,16 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Offscreen Content', 'infinity-pro' ),
 	'description' => __( 'This is the offscreen content section.', 'infinity-pro' ),
 ) );
+
+add_filter('excerpt_more', 'get_read_more_link');
+function get_read_more_link() {
+	return '...';
+}
+
+//* WordPress read more link
+add_action( 'genesis_entry_footer', 'infinity_pro_read_more' );
+function infinity_pro_read_more() {
+	if( ( is_category() || is_tag() || is_tax() ) ) {
+		echo '<p style="text-align: center;"><a class="button" href="' . get_permalink() . '">' . __( 'Read More', 'infinity-pro' ) . '</a></p>';
+	}
+}
