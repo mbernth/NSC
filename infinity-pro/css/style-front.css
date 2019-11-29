@@ -48,14 +48,18 @@ Loaded on the front page */
 	background-color: #fff;
 }
 
-.front-page .genesis-nav-menu .sub-menu a,
+/* .front-page .genesis-nav-menu .sub-menu a, */
 .front-page .white .genesis-nav-menu a,
 .front-page .white .offscreen-content-icon button,
 .front-page .white .site-title a,
 /*.header-image.front-page .genesis-nav-menu a,*/
-.header-image.front-page .genesis-nav-menu .sub-menu a,
+/* .header-image.front-page .genesis-nav-menu .sub-menu a, */
 .header-image.front-page .offscreen-content-icon button {
 	color: #fff;
+}
+
+.front-page .white .genesis-nav-menu .sub-menu a{
+	color: #00395d;
 }
 
 .front-page .genesis-nav-menu a:hover,
@@ -264,7 +268,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #52b9e9;
+	background-color: #fff;
 }
 
 .front-page-2 .widget-full .wrap {
@@ -376,7 +380,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #ffe46b;
+	background-color: #fff;
 }
 
 .front-page-4 .widget-full .wrap {
@@ -488,7 +492,7 @@ Loaded on the front page */
 	padding-bottom: 180px;
 	padding-top: 170px;
 	text-align: center;
-	background-color: #52b9e9;
+	background-color: #fff;
 }
 
 .front-page-6 .widget-full .wrap {
@@ -666,6 +670,85 @@ Loaded on the front page */
 .content-box .icon {
 	font-size: 30px;
 }
+
+/* Content Boxes Custom HTML
+---------------------------------------------------------------------------------------------------- */
+/* Front Page 2 Start */
+.front-page-2 .widget-full .wrap{
+	max-width:90%;
+}
+/* Front Page 2 End */
+
+/* Front-page 4 Start */
+.front-page-4 .featured-content .widget-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.front-page-4 .featured-content .widget-wrap .widgettitle {
+    width: 100%;
+}
+.front-page-4 {
+    text-align: center;
+}
+.front-page-4 .widget_black_studio_tinymce{
+  width:100% !important;
+}
+.front-page-4 .entry{
+  border-bottom:none;
+  max-width: 300px;
+}
+/* Front-page 4 End */
+
+.equal{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+  }
+  .equal div{
+	margin-bottom:40px;
+  }
+  .impact,
+  .initiative{
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-top:50px;
+  }
+  .impact section,
+  .initiative section{
+	text-align:center;
+	width:33%;
+	max-width:350px;
+	padding:10px;
+	margin-bottom:50px;
+  }
+  .impact section p,
+  .initiative section p{
+	font-size:16px;
+	line-height:1.3;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#00395d;
+  }
+  .impact section .big,
+  .initiative section .big{
+	font-size:60px;
+	line-heigh:1;
+	font-weight:bold;
+  }
+  .impact section img,
+  .initiative section img{
+	max-width:130px;
+  }
+  
+  @media only screen and (max-width: 860px) {
+	.impact section,
+	.initiative section{
+	  width:100%;
+	}
+  }
 
 
 /* Team Overlay
